@@ -21,7 +21,7 @@ def run_model_sync():
 ]
     for line in items:
         result = replicate.run(
-            "zgimszhd61/flux-dev-lora-trainer:129cd7f38a495f4550bb146da6d8f7fcd172d906cfcd799a17241a5c00d39756",
+            "zgimszhd61/flux-dev-lora-demo:129cd7f38a495f4550bb146da6d8f7fcd172d906cfcd799a17241a5c00d39756",
             input={
                 "prompt":line,
                 "model": "dev",
